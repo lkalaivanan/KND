@@ -1,21 +1,15 @@
 ##########################################################################
 #                   KUBERNETES NGINX DEPLOYER                            #
 ##########################################################################
+knd (Kubernetes NGINX deployer) deploys NGINX on a Kubernetes cluster, and verifies that it has come up healthy.
 
-
-**NOTE:** All the installations are tested on ubuntu 20.04 system
+**NOTE:** The installation and execution steps are tested on ubuntu 20.04 system
 
 **#!-- How to install requirements **
 
 chmod 777 install_requirements.sh
 
-sudo sh install_requirements.sh
-
-**#!-- How to uninstall requirements**
-
-chmod 777 remove_requirements.sh
-
-sudo sh remove_requirements.sh 
+sudo sh install_requirements.sh 
 
 **#!-- How to build the binary(optional):**
 
@@ -65,6 +59,11 @@ optional arguments:
 
 - Delete the nginx deployment              : KND --name=nginx-deployment --action=delete
 
+**#!-- How to uninstall requirements**
+
+chmod 777 remove_requirements.sh
+
+sudo sh remove_requirements.sh
 
 **#!-- UnInstallation Steps:**
 
