@@ -5,11 +5,13 @@
 #!-- How to install requirements 
 
 chmod 777 install_requirements.sh
+
 sudo sh install_requirements.sh
 
 #!-- How to uninstall requirements
 
 chmod 777 remove_requirements.sh
+
 sudo sh remove_requirements.sh 
 
 #!-- How to build the binary(optional):
