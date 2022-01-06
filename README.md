@@ -3,6 +3,8 @@
 ##########################################################################
 
 
+**NOTE:** All the installations are tested on ubuntu 20.04 system
+
 **#!-- How to install requirements **
 
 chmod 777 install_requirements.sh
