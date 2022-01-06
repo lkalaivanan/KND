@@ -2,27 +2,27 @@
 #                   KUBERNETES NGINX DEPLOYER                            #
 ##########################################################################
 
-#!-- How to install requirements 
+**#!-- How to install requirements **
 
 chmod 777 install_requirements.sh
 
 sudo sh install_requirements.sh
 
-#!-- How to uninstall requirements
+**#!-- How to uninstall requirements**
 
 chmod 777 remove_requirements.sh
 
 sudo sh remove_requirements.sh 
 
-#!-- How to build the binary(optional):
+**#!-- How to build the binary(optional):**
 
 pyinstaller --onefile KND.py
 
-#!-- Installation Steps:
+**#!-- Installation Steps:**
 
 sudo cp dist/KND /usr/local/bin/KND
 
-#!-- Steps to run the code:
+**#!-- Steps to run the code:**
 
 $ KND --help
 
@@ -52,7 +52,7 @@ optional arguments:
                         
 
 
-#!-- Sample code:
+**#!-- Sample code:**
 
 - Bring up the nginx deployment            : KND --name=nginx-deployment --action=deploy --version=1.16.0
  
@@ -63,7 +63,7 @@ optional arguments:
 - Delete the nginx deployment              : KND --name=nginx-deployment --action=delete
 
 
-#!-- UnInstallation Steps:
+**#!-- UnInstallation Steps:**
 
 sudo rm -rf /usr/local/bin/KND
 
