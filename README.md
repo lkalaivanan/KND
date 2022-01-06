@@ -2,6 +2,7 @@
 #                   KUBERNETES NGINX DEPLOYER                            #
 ##########################################################################
 
+
 **#!-- How to install requirements **
 
 chmod 777 install_requirements.sh
