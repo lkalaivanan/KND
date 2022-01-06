@@ -1,7 +1,8 @@
 ##########################################################################
 #                   KUBERNETES NGINX DEPLOYER                            #
 ##########################################################################
-knd (Kubernetes NGINX deployer) deploys NGINX on a Kubernetes cluster, and verifies that it has come up healthy.
+ 
+KND (Kubernetes NGINX deployer) deploys NGINX on a Kubernetes cluster, and verifies that it has come up healthy.
 
 **NOTE:** The installation and execution steps are tested on ubuntu 20.04 system
 
